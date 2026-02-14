@@ -1,0 +1,230 @@
+Got it 👍 You want a **clear step-by-step list** of what is required for this assignment.
+Here it is, **simplified and in order**, based directly on the assignment document .
+
+---
+
+## **Step-by-Step Requirements for ML Assignment-2**
+
+### **STEP 1: Choose Dataset**
+
+* Select **ONE classification dataset** from **Kaggle or UCI**
+* Can be **binary or multi-class**
+* Minimum:
+
+  * **500 instances (rows)**
+  * **12 features (columns)**
+
+---
+
+### **STEP 2: Implement ML Models**
+
+Use the **same dataset** for all models.
+
+Implement **all 6 classification models**:
+
+1. Logistic Regression
+2. Decision Tree Classifier
+3. K-Nearest Neighbors (KNN)
+4. Naive Bayes (Gaussian or Multinomial)
+5. Random Forest (Ensemble)
+6. XGBoost (Ensemble)
+
+---
+
+### **STEP 3: Evaluate Each Model**
+
+For **every model**, calculate these **6 metrics**:
+
+* Accuracy
+* AUC Score
+* Precision
+* Recall
+* F1 Score
+* Matthews Correlation Coefficient (MCC)
+
+📸 **Take ONE screenshot** showing execution on **BITS Virtual Lab** (mandatory).
+
+---
+
+### **STEP 4: Create GitHub Repository**
+
+Your repo **must contain**:
+
+```
+project-folder/
+│-- app.py (or streamlit_app.py)
+│-- requirements.txt
+│-- README.md
+│-- model/
+│   └── saved model files (*.py or *.ipynb)
+```
+
+---
+
+### **STEP 5: Create requirements.txt**
+
+Include all dependencies, for example:
+
+* streamlit
+* scikit-learn
+* numpy
+* pandas
+* matplotlib
+* seaborn
+  (+ any others you used)
+
+⚠️ Missing dependencies = deployment failure.
+
+---
+
+### **STEP 6: Write README.md (Very Important)**
+
+README must include:
+
+#### a) Problem Statement
+
+#### b) Dataset Description
+
+#### c) Models Used + Metrics Table
+
+Create a **comparison table** like this:
+
+| Model | Accuracy | AUC | Precision | Recall | F1 | MCC |
+| ----- | -------- | --- | --------- | ------ | -- | --- |
+
+#### d) Model Observations
+
+Write **performance observations** for **each model**.
+
+📄 **This README content must ALSO be copied into the final PDF.**
+
+---
+
+### **STEP 7: Build Streamlit App**
+
+Your Streamlit app **must have**:
+
+* CSV dataset upload (test data only)
+* Model selection dropdown
+* Display evaluation metrics
+* Confusion matrix OR classification report
+
+---
+
+### **STEP 8: Deploy on Streamlit Cloud**
+
+1. Go to **streamlit.io/cloud**
+2. Login with GitHub
+3. Click **New App**
+4. Select your repository
+5. Choose branch (main)
+6. Select `app.py`
+7. Click **Deploy**
+
+🔗 Save the **live app link**
+
+---
+
+### **STEP 9: Prepare Final PDF Submission**
+
+Your **single PDF file** must include (in order):
+
+1. GitHub repository link
+2. Live Streamlit app link
+3. Screenshot of BITS Virtual Lab execution
+4. Full README.md content
+
+⚠️ **Only ONE submission allowed. No resubmission.**
+
+---
+
+### **STEP 10: Final Checklist Before Submitting**
+
+✔ GitHub link works
+✔ Streamlit app opens without errors
+✔ All 6 models implemented
+✔ All metrics calculated
+✔ README added to PDF
+✔ Screenshot included
+
+---
+
+If you want, I can:
+
+* Make a **timeline plan (day-wise)**
+* Suggest a **safe dataset**
+* Give you a **Streamlit app template**
+* Help write **README + observations**
+
+Just tell me 👍
+Short answer: **You MUST do it on BITS Virtual Lab (mandatory)** — but you **can also use your local laptop as support**.
+
+Here’s the clear breakdown 👇
+
+---
+
+## ✅ **MANDATORY: BITS Virtual Lab**
+
+* The assignment **has to be performed on BITS Virtual Lab**
+* You must upload **ONE screenshot** as proof of execution on BITS Lab
+* This screenshot carries **1 mark**
+* If you face access issues, you must email the course coordinator (as mentioned in the assignment)
+
+👉 **So for evaluation purposes, BITS Lab is compulsory**
+
+---
+
+## ⚠️ **Local Laptop (Optional but Allowed)**
+
+You **may**:
+
+* Develop code locally for convenience
+* Test models and Streamlit app on your laptop
+* Prepare README and requirements.txt locally
+
+BUT:
+
+* Final execution **must be run on BITS Virtual Lab**
+* Screenshot must clearly show:
+
+  * Code running
+  * Models executing / metrics output
+
+---
+
+## ✅ **Best (Safe) Strategy – Recommended**
+
+1. **Develop on your local laptop**
+
+   * Faster, easier debugging
+2. Push code to **GitHub**
+3. Open **BITS Virtual Lab**
+4. Pull the same GitHub repo
+5. Run the code there
+6. Take **ONE screenshot**
+7. Deploy Streamlit app from GitHub
+
+This avoids last-minute lab issues 👍
+
+---
+
+## ❌ What NOT to Do
+
+* ❌ Doing everything only on local laptop
+* ❌ Forgetting the BITS Lab screenshot
+* ❌ Submitting without proof of BITS Lab execution
+
+---
+
+### 🔑 Final Verdict
+
+**BITS Virtual Lab → compulsory for marks**
+**Local laptop → allowed, but not sufficient alone**
+
+If you want, I can:
+
+* Guide you **how to open & run in BITS Virtual Lab**
+* Tell you **what exactly should appear in the screenshot**
+* Give a **safe workflow checklist**
+
+Just say the word 😊
